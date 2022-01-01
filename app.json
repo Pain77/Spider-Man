@@ -1,0 +1,63 @@
+{
+    "name": "Ichigo",
+    "description": "Next level botto void",
+    "keywords": [
+      "bot",
+      "whatsapp",
+      "stickers",
+      "whatsapp-stickers",
+      "anime",
+      "whatsapp-bot",
+      "whatsapp-sticker-bot",
+      "whatsapp-botto"
+    ],
+    "website": "https://github.com/pratyush4932/Ichigo-botto#readme",
+    "repository": "https://github.com/pratyush4932/Ichigo-botto.git",
+    "logo": "https://images6.alphacoders.com/903/903824.png",
+    "success_url": "/",
+    "env": {
+      "PREFIX": {
+        "description": "Prefix of your bot"
+      },
+      "SESSION": {
+        "description": "A string for the session to be classified and to get access to the server endpoints"
+      },
+      "MODS": {
+        "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+        "required": false,
+        "value": "918231033230,919330880626,6285763791492"  
+      },
+      "CRON": {
+        "description": "Cron string to clear chats in a cycle",
+        "required": false
+      },
+      "MONGO_URI": {
+        "description": "A secret String for Mongodb Connection.(Required)"
+      },
+      "GOOGLE_API_KEY": {
+        "description": "Google API key for Google searches for MODS (Not Required)",
+        "required": false,
+        "value": "AIzaSyAZk1RkHiTen4-3h6Gmq-m8GqNGrlbJvUY"  
+      },
+      "CHAT_BOT_URL" : {
+        "description": "BrainShop API Brain url",
+        "required" : false,
+        "value": "http://api.brainshop.ai/get?bid=160314&key=GIeApGNOIGG22UQ1&uid=[uid]&msg=[msg]" 
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
+      },
+  
+      {
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      }
+    ]
+  }
