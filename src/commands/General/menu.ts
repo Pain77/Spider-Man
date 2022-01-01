@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
         const n = [
             './assets/images/ichi/ichigo.mp4','./assets/images/ichi/ichigo2.mp4'
         ]
-        let chitoge = n[Math.floor(Math.random() * n.length)]
+        let spiderman = n[Math.floor(Math.random() * n.length)]
         const mn=`
-🪆𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! 𝐈'𝐦 *𝙸𝚌𝚑𝚒𝚐𝚘-𝙱𝚘𝚝𝚝𝚘* , 𝐞𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬..! 
+🪆𝐇𝐞𝐲𝐚! 𝐈'𝐦 *Spider-Man* , 𝐞𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬..! 
 🎋 𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐋𝐢𝐬𝐭𝐞𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 : -
 
 🎊 𝐅𝐔𝐍 🎊
@@ -148,9 +148,9 @@ export default class Command extends BaseCommand {
 💻 sᴛᴀᴛᴜs
 💻 ᴜɴʙᴀɴ
  
-𓊈𒆜𝐈𝐜𝐡𝐢𝐠𝐨-𝐁𝐨𝐭𝐭𝐨𒆜𓊉
+𓊈𒆜𝐒𝐩𝐢𝐝𝐞𝐫-𝐌𝐚𝐧𒆜𓊉
 `
-        return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
+        return void this.client.sendMessage(M.from, { url: spiderman }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption:mn }
         )
