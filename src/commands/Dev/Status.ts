@@ -96,4 +96,3 @@ export default class Command extends BaseCommand {
         } else M.reply('Use Image/Video via Tagging it or/and use text')
     }
 }
- 
