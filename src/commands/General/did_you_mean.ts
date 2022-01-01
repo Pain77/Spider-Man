@@ -16,8 +16,8 @@ export default class Command extends BaseCommand {
         const n = [
             './assets/images/ichi/ichigo.mp4','./assets/images/ichi/ichigo2.mp4'
         ]
-        let chitoge = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
+        let spiderman = n[Math.floor(Math.random() * n.length)]
+        return void this.client.sendMessage(M.from, { url: spiderman }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `Do you mean *${this.client.config.prefix}help*? \n`}
         )
