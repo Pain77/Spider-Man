@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://i.pinimg.com/736x/ca/e7/8a/cae78ad7f8e6459ad20bde350e2eb78b.jpg'
+                'https://avatarfiles.alphacoders.com/185/185733.jpg'
         }
         const data = await this.client.getUser(user)
         if (data.Xp <= 50) {
@@ -73,7 +73,7 @@ export default class Command extends BaseCommand {
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://i.pinimg.com/736x/ca/e7/8a/cae78ad7f8e6459ad20bde350e2eb78b.jpg'
+                    'https://avatarfiles.alphacoders.com/307/307418.jpg'
             ),
             MessageType.image,
             undefined,
