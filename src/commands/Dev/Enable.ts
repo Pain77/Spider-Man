@@ -37,3 +37,4 @@ export default class Command extends BaseCommand {
         await M.reply(`*${this.client.util.capitalize(command.config.command)}* is now Enabled`)
     }
 }
+ 
