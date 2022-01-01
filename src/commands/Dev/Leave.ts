@@ -21,3 +21,4 @@ export default class Command extends BaseCommand {
         await this.client.groupLeave(M.from).catch(() => M.reply('Failed to leave the Group'))
     }
 }
+ 
