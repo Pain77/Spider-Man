@@ -33,3 +33,4 @@ export default class Command extends BaseCommand {
         M.reply(text)
     }
 }
+
