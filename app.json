@@ -1,5 +1,5 @@
 {
-    "name": "Ichigo",
+    "name": "Spider-Man",
     "description": "Next level botto void",
     "keywords": [
       "bot",
@@ -11,9 +11,9 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
     ],
-    "website": "https://github.com/pratyush4932/Ichigo-botto#readme",
-    "repository": "https://github.com/pratyush4932/Ichigo-botto.git",
-    "logo": "https://images6.alphacoders.com/903/903824.png",
+    "website": "https://github.com/Pain77/Spider-Man#readme",
+    "repository": "https://github.com/Pain77/Spider-Man.git",
+    "logo": "https://i.guim.co.uk/img/media/76e184b242a942ce7540ed3042e4bc47f3e473ae/0_187_5976_3586/master/5976.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=9eaf1cd68bbba51dd13e5c638e125ae5",
     "success_url": "/",
     "env": {
       "PREFIX": {
