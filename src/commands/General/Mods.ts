@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
                     user.notify || user.vname || user.name || 'null'
                 }*\n🍀 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
         )
-        text += `\nTo deploy your own Bot or To support Ichigo-botto\nVisit : https://github.com/pratyush4932/Ichigo-botto `
+        text += `\nTo deploy your own Bot or To support Spider-Man\nVisit : https://github.com/Pain77/Spider-Man `
         return void M.reply(text)
     }
 }
