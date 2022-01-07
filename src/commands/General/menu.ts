@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/images/ichi/ichigo.mp4','./assets/images/ichi/ichigo2.mp4'
+            './assets/images/sm/spidey.mp4','./assets/images/sm/spidey2.mp4'
         ]
         let spiderman = n[Math.floor(Math.random() * n.length)]
         const mn=`
