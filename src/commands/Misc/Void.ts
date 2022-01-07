@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `🖤 *Ichigo-botto* 🖤\n\n🍀 *Description: ${pkg.description}*\n\n🌐 *URL:* https://github.com/pratyush4932/Ichigo-botto`
+            `🖤 *Spider-Man* 🖤\n\n🍀 *Description: ${pkg.description}*\n\n🌐 *URL:* https://github.com/pratyush4932/Ichigo-botto`
         )
     }
 }
